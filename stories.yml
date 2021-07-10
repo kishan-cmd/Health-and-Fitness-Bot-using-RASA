@@ -1,0 +1,120 @@
+version: "2.0"
+
+stories:
+- story: greet
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: action_carousels
+
+- story: bot
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+- story: ty
+  steps: 
+  - intent: thanks
+  - action: utter_thanks
+
+- story: anything
+  steps:
+  - intent: yes
+  - action: action_carousels
+
+- story: anything 2
+  steps:
+  - intent: no
+  - action: utter_goodbye
+
+   
+- story: diet (gain weight)
+  steps:
+  - intent: gain_weight
+  - action: utter_gain_weight
+  - action: action_anyhting
+
+
+- story: diet (loose weight)
+  steps:
+  - intent: loose_weight
+  - action: utter_loose_weight
+  - action: action_anyhting
+
+- story: healthy tips
+  steps:
+  - intent: healthy_tips
+  - action: utter_healthy_tips
+  - action: action_anyhting
+
+- story: diet help
+  steps:
+  - intent: help
+  - action: utter_help
+  - action: action_anyhting
+
+- story: suppliments info
+  steps:
+  - intent: suppliments_info
+  - action: utter_suppliments_info
+  - action: action_anyhting
+
+- story: suppliments shop
+  steps:
+  - intent: suppliments
+  - action: utter_suppliments_shop
+  - action: action_anyhting
+
+- story: home workout
+  steps:
+  - intent: home_workouts
+  - action: utter_home_workouts
+  - action: action_anyhting
+
+- story: home workout
+  steps:
+  - intent: gym_workouts
+  - action: utter_gym_workouts
+  - action: action_anyhting
+
+- story: workout plan
+  steps:
+  - intent: workout_plans
+  - action: utter_workout_plans
+  - action: action_anyhting
+
+- story: yoga info
+  steps:
+  - intent: yoga_information
+  - action: utter_yoga
+  - action: action_anyhting
+
+- story: yoga history
+  steps:
+  - intent: yoga_history
+  - action: utter_history
+  - action: action_anyhting
+
+- story: yoga benifts
+  steps:
+  - intent: yoga_benifits
+  - action: utter_benifits
+  - action: action_anyhting
+
+- story: yoga chakras
+  steps:
+  - intent: yoga_chakras
+  - action: utter_chakras
+  - action: action_anyhting
+
+- story: yoga types
+  steps:
+  - intent: yoga_types
+  - action: utter_types
+  - action: action_anyhting
+
+- story: yoga videos
+  steps:
+  - intent: yoga_video
+  - action: utter_yoga_video
+  - action: action_anyhting

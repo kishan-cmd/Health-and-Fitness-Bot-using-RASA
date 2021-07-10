@@ -1,0 +1,128 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - hey there
+    - hiii
+    - hola
+    - hey
+    - restart
+    - rst
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: thanks
+  examples: |
+    - thanks
+    - ty
+    - thank you
+
+- intent: yes
+  examples: |
+    - yes
+    - y
+- intent: no
+  examples: |
+    - no
+    - n
+
+- intent: goodbye
+  examples: |
+    - good by
+    - by
+    - see you later
+    - bye
+    - goodbye
+    - bye bye
+    - see you later
+
+- intent: loose_weight
+  examples: |
+    - loose weight
+    - i would like to loose weight
+
+- intent: gain_weight
+  examples: |
+    - i would like to gain weight
+    - gain weight
+
+- intent: help
+  examples: |
+    - i need dietition
+    - i need help who should i contact
+    - i need help
+    - can u help me to find dietitian
+    - find dietitian
+
+- intent: healthy_tips
+  examples: |
+    - i need healthy tips
+    - show me some healthy tips
+    - healthy tips
+
+- intent: suppliments
+  examples: |
+    - suppliments
+    - suppliments shop
+    - online shop for suppliments
+
+- intent: suppliments_info
+  examples: |
+    - suppliments info
+    - can you show me suppliments brand info
+    - suppliment informations
+
+- intent: workout_plans
+  examples: |
+    - workout
+    - workouts
+    - show me workouts
+    - show me some workouts
+
+- intent: home_workouts
+  examples: |
+    - home workout 
+    - home workouts
+- intent: gym_workouts
+  examples: |
+    - gym workout 
+    - gym workouts
+    
+- intent: yoga_information
+  examples: |
+    - yoga inform 
+    - yoga information
+- intent: yoga_history
+  examples: |
+    - history of yoga
+    - yoga history
+- intent: yoga_types
+  examples: |
+    - types of yoga
+    - yoga types
+- intent: yoga_benefits
+  examples: |
+    - benifits of yoga
+    - yoga benifits
+- intent: yoga_chakras
+  examples: |
+    - chakras 
+    - yoga chakras
+- intent: yoga_video
+  examples: |
+    - show me yoga videos
+    - yoga vdos
+    - yoga video
+
+
+
