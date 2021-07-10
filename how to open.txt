@@ -1,0 +1,17 @@
+steps to install rasa:
+
+INSTALL visual code, anaconda promt and python
+
+1. In the Local disk C: create a empty folder C:\rasa
+2. go to the cmd use: cd C:/rasa
+3. create environment : conda create -n rasa python==(version)
+4. install lib: pip install ujson/tensorflow
+   Now pip install rasa > rasa init
+
+open a project in visual studio code oR pycharm 
+
+for run a project: 
+
+first terminal: rasa train (for train a bot)
+second terminal: rasa run actions (for run actions in rasa)
+third terminal: rasa run -m models --enable-api --cors "*" (for html page)

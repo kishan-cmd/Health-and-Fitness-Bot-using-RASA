@@ -1,0 +1,249 @@
+version: '2.0'
+config:
+  store_entities_as_slots: true
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- greet:
+    use_entities: true
+- bot_challenge:
+    use_entities: true
+- thanks:
+    use_entities: true
+- yes:
+    use_entities: true
+- no:
+    use_entities: true
+- goodbye:
+    use_entities: true
+- diet:
+    use_entities: true
+- loose_weight:
+    use_entities: true
+- gain_weight:
+    use_entities: true
+- healthy_tips:
+    use_entities: true
+- help:
+    use_entities: true
+- suppliments:
+    use_entities: true
+- suppliments_info:
+    use_entities: true
+- gym_workouts:
+    use_entities: true
+- home_workouts:
+    use_entities: true
+- workout_plans:
+    use_entities: true
+- yoga_types:
+    use_entities: true
+- yoga_information:
+    use_entities: true
+- yoga_history:
+    use_entities: true
+- yoga_benifits:
+    use_entities: true
+- yoga_chakras:
+    use_entities: true
+- yoga_video:
+    use_entities: true
+- yoga_benefits:
+    use_entities: true
+entities: []
+slots: {}
+responses:
+  utter_greet:
+  - text: |-
+      Hey 👋,
+      Welcome to the HEALTH & FITNESS BOT 🤖...
+  utter_goodbye:
+  - text: Good Bye 😀
+  utter_thanks:
+  - text: You're Welcome 👾!
+  utter_iamabot:
+  - text: I am a bot, Created by Kishan.
+  utter_gain_weight:
+  - text: |-
+      1.  Oily fish like salmon, tuna, herring and anchovies.
+      2.  Meats like turkey, chicken and lean beef, pork and lamb.
+      3.  Beans and legumes, including chickpeas, black beans,
+          lentils, cannellini beans and hummus, Eggs.
+      4.  Nut butters and nuts like cashews, peanuts, almonds,
+          walnuts and pecans.
+      5.  Whole grains like whole-wheat bread, whole-wheat pasta,
+          brown rice and quinoa.
+      6.  High-calorie fruits and vegetables like avocados, coconut,
+          bananas, mangoes and dried fruit.
+      7.  Full-fat dairy, including milk, yogurt and cheese.
+          For more info [↗️](http://www.eatingwell.com/article/2060706/healthy-weight-gain-meal-plan/)
+  utter_loose_weight:
+  - text: |-
+      1. **Vegetables**: Tomatoes, spinach, eggplant, mustard greens,
+         okra, onions, bitter melon, cauliflower, mushrooms, cabbage.
+      2. **Fruits**: mango, papaya, pomegranate, guava, bananas
+         oranges, tamarind, lychee, apples, melon, pears, plums.
+      3. **Nuts and seeds**: Cashews, almonds, peanuts, pistachios,
+         pumpkin seeds, sesame seeds, watermelon seeds and more.
+      4. **Legumes**: Mung beans, black-eyed peas, kidney beans,
+         lentils,pulses and chickpeas.
+      5. **Roots and tubers**: Potatoes, carrots, sweet potatoes,
+         turnips, yams.
+      6. **Whole grains**: Brown rice, basmati rice, millet, corn
+         buckwheat, quinoa, barley, whole-grain bread, amaranth,
+         sorghum
+      7. **Dairy**: Cheese, yogurt, milk, kefir, ghee.
+      8. **Herbs and spices**: Garlic, ginger, cardamom, cumin,
+         coriander, garam masala, paprika, turmeric, black pepper,
+         fenugreek, basil and more.
+      9. **Healthy fats**: Coconut milk, full-fat dairy, avocado,
+         coconut oil, mustard oil, olive oil, peanut oil, sesame oil,
+         ghee.
+      10. **Protein sources**: Tofu, legumes, dairy, nuts and seeds.
+          For more info [↗️](http://www.healthline.com/nutrition/indian-diet-weight-loss)
+  utter_healthy_tips:
+  - text: |-
+      1. Sleep 8+ hours
+      2. Drink 2L minimum of water a day
+      3. Get sun daily
+      4. Read for 30 min's a day
+      5. Workout 3x/week
+      6. Eat fruit + veg daily
+      7. Mediate for 10 min's daily
+      8. Be active daily for mental health
+      9. Be active daily for physical health
+      10. Strength train and lift heavy
+      11. Do cardio
+      12. Maintain healthy bodyweight and bodyfat levels
+      13. Check your BMI
+      14. Maintain ideal flexibility and mobility levels
+      15. Flexibility and mobility workouts
+  utter_help:
+  - text: |-
+      Here is a list of dietitian you can contact if you have any more queries.
+      1. Dietitian 1 👨‍⚕‍[Mob No: 7304777431]
+      2. Dietitian 2 👨‍⚕‍[Mob No: 1234567890]
+      3. Dietitian 3 👨‍⚕‍[Mob No: 8452090998]
+      4. For personal dietitian [↗️](https://www.apollo247.com/specialties/dietetics)
+  utter_suppliments_info:
+  - text: |-
+      1. **Creatine**
+         Creatine is a molecule that’s produced naturally in your body.
+         It provides energy for your muscles and other tissues.
+      2. **Protein Supplements**
+         Getting enough protein is critical for gaining muscle.
+      3. **Weight Gainers**
+         Weight gainers are supplements designed to conveniently help you get more calories and protein.
+         They’re typically used by individuals who struggle to gain muscle.
+      4. **Beta-Alanine**
+         Beta-alanine is an amino acid that
+         reduces fatigue and may increase exercise performance
+      5. **Branched-Chain Amino Acids**
+         Branched-chain amino acids (BCAAs) consist of three individual amino acids:
+         leucine, isoleucine and valine.
+      6. **HMB**
+         Beta-hydroxy beta-methylbutyrate (HMB) is a molecule that’s produced
+         when your body processes the amino acid leucine.
+  utter_suppliments_shop:
+  - text: |-
+      1. **Creatine** [↗️](https://www.amazon.com/s?k=creatine+supplements&rh=n%3A3760901%2Cn%3A3773431&dc&language=en_US&linkCode=sl2&linkId=eb95ff19deefae319d86a86b6601b933&qid=1559316502&rnid=2941120011&tag=nutrition-best-gain-muscle-supplements-20&ref=sr_nr_n_2)    
+      2. **Protein Supplements** [↗️](https://www.amazon.com/s?k=protein+supplements&rh=n%3A3760901%2Cn%3A6973706011&dc&language=en_US&linkCode=sl2&linkId=738c4ab99200718739402a1bbaa96f74&qid=1559316663&rnid=2941120011&tag=nutrition-best-gain-muscle-supplements-20&ref=sr_nr_n_5)
+      3. **Weight Gainers** [↗️](https://www.amazon.com/s?k=weight+gainer+supplements&language=en_US&linkCode=sl2&linkId=a2464ee6de7334dbf7b034103d1a787d&tag=nutrition-best-gain-muscle-supplements-20&ref=nb_sb_noss)
+      4. **Beta-Alanine** [↗️](https://www.amazon.com/s?k=Beta-Alanine&language=en_US&linkCode=sl2&linkId=9049f36c1fd57d927a7a525142eac525&tag=nutrition-best-gain-muscle-supplements-20&ref=nb_sb_noss)
+      5. **Branched-Chain Amino Acids** [↗️](https://www.amazon.com/s?k=bcaa&rh=n%3A3760901%2Cn%3A6939949011&dc&language=en_US&crid=2GFPF8IFWZGTB&linkCode=sl2&linkId=7ad9fce53fb939f6f3daae454f70c390&qid=1559317114&rnid=2941120011&sprefix=bcaa%2Caps%2C174&tag=nutrition-best-gain-muscle-supplements-20&ref=sr_nr_n_2)
+      6. **HMB** [↗️](https://www.amazon.com/s?k=hmb+supplements&rh=n%3A6939949011&language=en_US&linkCode=sl2&linkId=22f83eb3a67d32f0cd4d0fe08bdea999&tag=nutrition-best-gain-muscle-supplements-20&ref=nb_sb_noss)
+  utter_home_workouts:
+  - text: |-
+      A. **BEGINNERS**
+      1.  **push-up** [↗️](https://www.verywellfit.com/the-push-up-exercise-3120574)
+      2.  **lunges** [↗️](https://www.verywellfit.com/how-to-lunge-variations-modifications-and-mistakes-1231320)
+      3.  **squat** [↗️](https://www.verywellfit.com/safe-squat-technique-3119136)
+      4.  **plank** [↗️](https://www.verywellfit.com/the-plank-exercise-3120068)
+
+      B.  **INTERMEDIATE**
+      1.  **bicep curl** [↗️](https://www.verywellfit.com/strength-exercises-for-the-biceps-1231100)
+      2.  **lateral raise** [↗️](https://www.verywellfit.com/side-lateral-raise-4588211)
+      3.  **tricep dips** [↗️](https://www.verywellfit.com/most-effective-triceps-exercises-1231027)
+      4.  **wall squats** [↗️](https://www.verywellfit.com/the-wall-sit-quad-exercise-3120741)
+      5.  **overhead press** [↗️](https://www.verywellfit.com/how-to-do-the-dumbbell-overhead-press-3498298)
+
+      C.  **ADVANCED**
+      1.  **stability ball push-up** [↗️](https://www.verywellfit.com/stability-ball-push-up-3120145)
+      2.  **banded side step** [↗️](https://www.verywellfit.com/lateral-band-walking-exercise-3120456) 
+      3.  **overhead extension** [↗️](https://www.verywellfit.com/how-to-do-dumbbell-lunges-3498297)
+      4.  **lat pulldowns** [↗️](https://www.verywellfit.com/how-to-do-the-lat-pulldown-3498309)
+  utter_workout_plans:
+  - text: |-
+      A. **The Upper-Lower Training Split Workout Routine** [**Click here**](https://cdn.muscleandstrength.com/sites/default/files/workouts/upper_lower4day.pdf)
+      1.  Monday:- Upper Body (Push Focus) [↗️](https://www.youtube.com/watch?v=HE45jVN7XKM)
+      2.  Tuesday:- Lower Body (Squat Focus) [↗️](https://youtu.be/RjexvOAsVtI)
+      3.  Wednesday:- Off /Active Recovery 
+      4.  Thursday:- Upper Body (Pull Focus) [↗️](https://www.youtube.com/watch?v=IOl42YpK_Es)
+      5.  Friday:- Lower Body (Hamstring and Glute Focus) [↗️](https://youtu.be/RjexvOAsVtI)
+      6.  Saturday/Sunday:- Off
+
+      B. **Push/Pull/Legs (PPL) Workout Routine** [**Click here**](https://legionathletics.com/push-pull-legs/)         
+      1.  Monday:- Chest, Shoulders and Triceps [↗️](https://www.youtube.com/watch?v=HE45jVN7XKM)
+      2.  Tuesday:- Back, Biceps, Abs and Forearms [↗️](https://www.youtube.com/watch?v=IOl42YpK_Es)
+      3.  Wednesday:- Legs [↗️](https://youtu.be/RjexvOAsVtI)
+      4.  Thursday:- Chest, Shoulders and Triceps [↗️](https://www.youtube.com/watch?v=HE45jVN7XKM)
+      5.  Friday:- Back, Biceps, Abs and Forearms [↗️]
+      6.  Saturday:- Legs[↗️](https://youtu.be/RjexvOAsVtI)
+      7.  Sunday:- Rest
+
+      C. **Power Hypertrophy Upper Lower (PHUL) Workout Routine** [**Click here**](https://advancedbodymetrics.com/workout-routines/power-hypertrophy-upper-lower-workout/)         
+      1.  Monday:- Upper Power [↗️](https://youtu.be/acp77RhVzMM)
+      2.  Tuesday:- Lower Power [↗️](https://youtu.be/YPLopuFxz-0?list=RDCMUCERm5yFZ1SptUEU4wZ2vJvw)
+      3.  Wednesday:- Rest
+      4.  Thursday:- Upper Hypertrophy [↗️](https://youtu.be/acp77RhVzMM)
+      5.  Friday:- Lower Hypertrophy [↗️](https://youtu.be/YPLopuFxz-0?list=RDCMUCERm5yFZ1SptUEU4wZ2vJvw)
+      6.  Saturday/Sunday:- Rest
+
+      D. **The 5-Day Split Workout Routine** [**Click here**](https://advancedbodymetrics.com/workout-routines/5-day-split-workout-routines-strength-muscle-gains/)
+      1.  Monday:- Chest [↗️](https://youtu.be/89e518dl4I8)
+      2.  Tuesday:- Back [↗️](https://youtu.be/eE7dzM0iexc)
+      3.  Wednesday:- Shoulders [↗️](https://youtu.be/jv31A4Ab4nA)
+      4.  Thursday:- Arms [↗️](https://youtu.be/8fvT3sYfzLo)
+      5.  Friday:- Legs [↗️](https://youtu.be/RjexvOAsVtI)
+      6.  Saturday:- Rest 
+      7.  Sunday:- Rest
+  utter_gym_workouts:
+  - text: 
+      1. [CHEST WORKOUT](https://youtu.be/89e518dl4I8)
+      2. [BACK WORKOUT](https://youtu.be/eE7dzM0iexc)
+      3. [SHOULDER WORKOUT](https://youtu.be/jv31A4Ab4nA)
+      4. [TRICEP WORKOUT](https://youtu.be/tMyFe-IL7Ks)
+      5. [BICEP WORKOUT](https://youtu.be/gozU3CUIizs)
+      6. [LEGS WORKOUT](https://youtu.be/RjexvOAsVtI)
+      7. [ABS WORKOUT](https://youtu.be/i27K2ry9jEo)
+      8. [FULL BODY WORKOUT](https://youtu.be/R6gZoAzAhCg)
+      9. [PULL WORKOUT](https://www.youtube.com/watch?v=IOl42YpK_Es)
+      10. [PUSH WORKOUT](https://www.youtube.com/watch?v=HE45jVN7XKM)
+    
+  utter_yoga_video:
+  - buttons:
+    - payload: /https://youtu.be/v7AYKMP6rOE
+      title: BEGINNERS 🧘
+    - payload: /https://youtu.be/Yzm3fA2HhkQ
+      title: FLEXIBILITY 🤸‍♂‍
+    - payload: /https://youtu.be/Ci3na6ThUJc
+      title: WEIGHT LOSS 🧘
+    - payload: /https://youtu.be/ZIRgu5FTajA
+      title: BELLY FAT 🤸‍♂
+    text: YOGA FOR
+  utter_yoga:
+  - text: Yoga is an ancient practice that involves physical poses, concentration, and deep breathing. A regular yoga practice can promoteTrusted Source endurance, strength, calmness, [flexibility](https://www.medicalnewstoday.com/articles/stretching-routine#benefits), and well-being. Yoga is now a popular form of exercise around the world.
+  utter_history:
+  - text: The first mention of the word “yoga” appears in Rig Veda, a collection of ancient texts. Yoga comes from the Sanskrit word “yuj,” which means “union” or “to join.”
+  utter_types:
+  - text: There are many styles of yoga. A person should choose a style based on their goals and fitness level. Types and styles of yoga [**include**](https://www.ekhartyoga.com/articles/practice/the-6-branches-of-yoga)
+  utter_benifits:
+  - text: According to a 2012 survey, 94% of adults who practice yoga do so for wellness reasons. Yoga has many physical and mental benefits, includingTrusted Source building muscle strength enhancing flexibility promoting better breathing supporting heart health helping with treatment for addiction reducing stress, anxiety, depression, and chronic pain improving sleep enhancing overall well-being and quality of life It is advisable to consult a medical professional, if possible, before starting a yoga practice.
+  utter_chakras:
+  - text: The word “chakra” means “spinning wheel.” Yoga maintains that chakras are center points of energy, thoughts, feelings, and the physical body. According to yogic teachers, chakras determine how people experience reality through emotional reactions, desires or aversions, levels of confidence or fear, and even physical symptoms and effects. When energy becomes blocked in a chakra, it triggers physical, mental, or emotional imbalances that manifest in symptoms such as anxiety, lethargy, or poor digestion. Asanas are the many physical poses in Hatha yoga. People who practice yoga use asanas to free energy and stimulate an imbalanced chakra.There are seven major chakras, each with its own .[**focus**](https://amitray.com/the-7-chakras-in-the-body-a-beginners-guide/)
+actions:
+- action_carousels
+- action_anyhting
+forms: {}
+e2e_actions: []
